@@ -13,6 +13,6 @@ def log_lines_to_json(log_file, field_names, field_delimiter):
             result.append({field_name: fields[idx] for idx, field_name in enumerate(field_names)})
     return result
 
-entries = log_lines_to_json('log.txt', FIELD_NAMES, FIELD_DELIMITER)
+entries = log_lines_to_json('sample_log.txt', FIELD_NAMES, FIELD_DELIMITER)
 for entry in entries:
      print(json.dumps(entry))
