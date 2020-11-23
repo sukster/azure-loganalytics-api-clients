@@ -4,7 +4,7 @@
 # You need to update the FIELD_NAMES and FIELD_DELIMITER to match your log type
 # The sample_log.txt provided is a Palo Alto Threat Log
 
-# Reference:
+# Credits:
 # https://stackoverflow.com/questions/54689242/convert-log-file-into-json-file-using-python
 
 import json
