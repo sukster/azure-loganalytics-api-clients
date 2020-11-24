@@ -32,5 +32,5 @@ except:
     print("========================== USAGE ==========================")
     print("Update the FIELD_NAMES and FIELD_DELIMITER to match your log type.")
     print("The sample_log.txt provided with this script is a Palo Alto Threat Log.")
-    print("The correct syntax is: python3 log2json.py log_file_name")
+    print("The correct syntax is: python3 log2json.py ../data-samples/sample_log.txt")
     sys.exit(1)
