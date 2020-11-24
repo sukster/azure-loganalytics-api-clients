@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
 # Author: Ludek Suk
-# You need to update the FIELD_NAMES and FIELD_DELIMITER to match your log type
-# The sample_log.txt provided is a Palo Alto Threat Log
+# Update the FIELD_NAMES and FIELD_DELIMITER below to match your log type
+# The sample_log.txt provided with this script is a Palo Alto Threat Log
+# Convert the log file to json format by running: python3 log2json.py > pan-threat-log.json
 
 # Credits:
 # https://stackoverflow.com/questions/54689242/convert-log-file-into-json-file-using-python
